@@ -1,0 +1,168 @@
+@import url('https://fonts.googleapis.com/css2?family=Inconsolata:wght@200;500;600&display=swap');
+
+:root{
+
+    --font-principal: 'Inconsolata', monospace;
+    --cor-principal:#65F0F5;
+    --cor-secundaria:hsl(0, 0%, 10%) ;
+    --cor-terciaria: #c0c0c0;
+    --cor-neutra:#ffffff;
+    --cor-anc:hsl(180, 50%, 45%);
+    --cor-fundo:hsl(0, 0%, 15%);
+    
+}
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    box-sizing: border-box;
+    background-color: var(--cor-secundaria);
+    
+
+}
+
+img{
+
+    display: block;
+    border: 0;
+}
+
+.presentation_anc_forgotpass_register:hover{
+
+    text-decoration:underline;
+
+
+}
+
+.presentation_botoes_login:hover{
+
+    text-decoration: underline;
+    background-color:var(--cor-anc);
+    
+}
+
+
+
+
+.container_img{
+
+    display: flex;
+    flex-direction: column;
+    margin:5% 0% 0% 12%;
+    gap: 50px;
+   
+
+}
+
+.presentation_img{
+
+    width: 490px;
+}
+
+.presentation_titulo_login{
+
+    font-size: 25px;
+    display: flex;
+    justify-content: center;
+    font-family: var(--font-principal);   
+    color: var(--cor-principal) 
+    
+
+  }
+
+
+.presentation_titulo{
+
+    font-family: var(--font-principal);
+    font-size:35px ;
+    color: var(--cor-neutra)
+    
+
+}
+
+.tela_login{
+    
+    display: flex;
+    flex-direction: column;
+    gap: 18px;
+    position: absolute;
+    top: 45%;
+    left: 80%;
+    transform: translate(-50%, -50%);
+    border:1px hidden;
+    border-color: var(--cor-secundaria);
+    border-radius: 14px;
+    width: 350px;
+    padding: 11px 11px 11px 11px;
+    background-color: var(--cor-fundo);
+    
+    
+}   
+
+.presentation_botoes{
+
+    display: flex;
+    justify-content: center;
+}
+
+
+
+
+.presentation_botoes_anc{
+
+    display: flex;
+    align-items: center;
+    gap:4px;
+    color: var(--cor-neutra);
+    text-decoration: none;
+    
+}
+
+.presentation_inputs{
+
+    display: flex;
+    flex-direction: column;
+    color: var(--cor-neutra);
+    font-family: var(--font-principal);
+    gap:5px;
+    font-size: 15px;
+    
+    
+}
+
+.container_inputs{
+    display: flex;
+    flex-direction: column;
+    gap:15px;
+}
+
+.presentation_botoes_login{
+    color: var(--cor-secundaria);
+    border: 2px hidden;
+    border-radius: 5px;
+    width: 100%;
+    padding: 8px 8px 8px 8px;
+    background-color: var(--cor-principal);
+    color: var(--cor-secundaria);
+    font-family: var(--font-principal);
+    font-size: 16px;
+    text-decoration:solid;
+}
+
+.style_input{
+
+    border: 2px hidden;
+    border-radius: 8px;
+    padding: 6px 6px 6px 6px;
+    background-color:#ADB8BA;
+} 
+
+
+.presentation_anc_forgotpass_register{
+
+    text-decoration: none;
+    color:var(--cor-anc);
+}

@@ -1,0 +1,80 @@
+:root{
+
+    --font-principal: 'Inconsolata', monospace;
+    --cor-principal:#65F0F5;
+    --cor-secundaria:hsl(0, 0%, 10%) ;
+    --cor-terciaria: #c0c0c0;
+    --cor-neutra:#ffffff;
+    --cor-anc:hsl(180, 50%, 45%);
+    --cor-fundo:hsl(0, 0%, 15%);
+    
+}
+
+
+
+
+
+
+
+.presentation_titulo_forgotpass{
+
+    font-size: 35px;
+    display: flex;
+    justify-content: center;
+    font-family: var(--font-principal);   
+    color: var(--cor-principal) 
+    
+
+  }
+
+.presentation_paragraph_forgotpass{
+
+    color: var(--cor-neutra);
+    font-family: var(--font-principal);
+    font-size: 20px;
+
+
+}
+
+
+.presentation_botoes_continue{
+    
+    color: var(--cor-secundaria);
+    border: 2px hidden;
+    border-radius: 5px;
+    width: 100%;
+    padding: 8px 8px 8px 8px;
+    background-color: var(--cor-principal);
+    color: var(--cor-secundaria);
+    font-family: var(--font-principal);
+    font-size: 16px;
+    text-decoration:solid;
+}
+
+
+.tela_forgotpass{
+    
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    position: absolute;
+    top: 45%;
+    left: 80%;
+    transform: translate(-50%, -50%);
+    border:1px hidden;
+    border-color: var(--cor-secundaria);
+    border-radius: 14px;
+    width: 350px;
+    padding: 11px 11px 11px 11px;
+    background-color: var(--cor-fundo);
+    
+    
+} 
+
+
+.presentation_botoes_continue:hover{
+
+    text-decoration: underline;
+    background-color:var(--cor-anc);
+    
+}
